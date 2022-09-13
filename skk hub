@@ -2142,7 +2142,7 @@ end)
 
 Main:AddSeperator("FastAttack and Settings")
 
-Main:AddToggle("SuperFastAttack(à¸¢à¸±à¸‡à¹ƒà¸Šà¹‰à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¸™à¸°à¸„à¸£à¸±à¸š)",function()
+Main:AddToggle("SuperFastAttack",function()
     
 local plr = game.Players.LocalPlayer
 
