@@ -2242,7 +2242,7 @@ task.wait()
 end
 end)
 
-Main:AddToggle("Auto Set Spawn Points",false,function(value)
+Main:AddToggle("Auto Set Spawn Points",true,function(value)
 _G.AutoSetSpawn = value
 end)
 
